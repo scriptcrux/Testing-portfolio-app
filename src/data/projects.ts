@@ -44,7 +44,7 @@ export const projects: ProjectData[] = [
       '/images/k8s-cicd-pipeline.jpg',
     ],
     tags: ['Full-Stack', 'FE & BE', 'Kubernetes', 'Apache Kafka', 'Fastify', 'TypeScript', 'Pact CDCT', 'OpenTelemetry', 'PostgreSQL RLS', 'Playwright', 'k6', 'Docker'],
-    github: 'https://github.com/APdrone/enterprise-workflow-platform-k8s',
+    github: 'https://github.com/scriptcrux/enterprise-workflow-platform-k8s',
     architectureMetrics: {
       workers: 'Kubernetes Pods & HPA',
       duration: 'P95 < 100ms / ~8s Full CI',
@@ -137,7 +137,7 @@ describe('Consumer-Driven Contract: Workflow State Transition', () => {
       '/images/automation-core-sdk-arch.jpg',
     ],
     tags: ['FE', 'Frontend', 'Playwright', 'TypeScript', 'ReportPortal', 'Page Object Model', 'Hybrid Auth', 'CI/CD'],
-    github: 'https://github.com/APdrone/ui-automation-ts',
+    github: 'https://github.com/scriptcrux/ui-automation-ts',
     ecosystem: {
       sut: 'billpulse-fintech-app (🔒 Private)',
       coreLib: '@script-crux/adapter-playwright (🔒 Private SDK via PAT)',
@@ -194,7 +194,7 @@ test.describe('E2E Hybrid: API Pre-Seeded Fast-Path Authentication', () => {
       '/images/automation-core-sdk-arch.jpg',
     ],
     tags: ['BE', 'Backend', 'Axios', 'TypeScript', 'Zod', 'Design Patterns', 'Testcontainers', 'Security QA'],
-    github: 'https://github.com/APdrone/api-automation-ts',
+    github: 'https://github.com/scriptcrux/api-automation-ts',
     ecosystem: {
       sut: 'billpulse-fintech-app (🔒 Private)',
       coreLib: '@script-crux/adapter-axios (🔒 Private SDK via PAT)',
@@ -269,7 +269,7 @@ describe('API: Security, Token Tampering & Idempotent State Transitions', () => 
       '/images/billpulse-api-dashboard.jpg',
     ],
     tags: ['Full-Stack', 'FE & BE', 'pnpm Monorepo', 'TypeScript', 'Playwright Adapter', 'Axios Adapter', 'GitHub Packages', 'Husky'],
-    github: 'https://github.com/APdrone/automation-core-lib',
+    github: 'https://github.com/scriptcrux/automation-core-lib',
     ecosystem: {
       sut: 'billpulse-fintech-app & Microservices',
       coreLib: '@script-crux Monorepo Engine',
@@ -325,7 +325,7 @@ export type { MockResponseOptions, SoftAssertionFailure, EventStreamWaitOptions 
       'https://res.cloudinary.com/dyhvayayc/image/upload/v1739670497/Cypress_CI_4_gsfbu3.png',
     ],
     tags: ['FE', 'Frontend', 'Cypress 13', 'TypeScript', 'GitHub Actions', 'Jenkins CI', 'Docker', 'Cypress Cloud', 'Mochawesome', 'Page Object Model'],
-    github: 'https://github.com/APdrone/auto-frameworks-Cypress-CI',
+    github: 'https://github.com/scriptcrux/auto-frameworks-Cypress-CI',
     architectureMetrics: {
       workers: 'Matrix Sharding (4 Browsers)',
       duration: '3m 15s Multi-Browser Run',
@@ -391,7 +391,7 @@ export default defineConfig({
     mainImage: '/images/ragas-eval-dashboard.jpg',
     images: ['/images/ragas-eval-dashboard.jpg'],
     tags: ['GenAI QA', 'Ragas 0.3.9', 'FastAPI', 'LangChain', 'Python', 'ChromaDB', 'Pytest', 'RAG Triad', 'Anti-Hallucination', 'CI/CD Gates'],
-    github: 'https://github.com/APdrone/rag-continuous-eval-pipeline',
+    github: 'https://github.com/scriptcrux/rag-continuous-eval-pipeline',
     architectureMetrics: {
       workers: 'Ragas Async Evaluator',
       duration: 'p95 < 0.67ms / 0.01s Eval',
@@ -452,7 +452,7 @@ async def test_full_ragas_benchmark_quality_gates(evaluator, golden_dataset, qua
       '/images/finsight-deepeval-dashboard.jpg',
     ],
     tags: ['GenAI QA', 'LangGraph', 'StateGraph', 'DeepEval 3.7+', 'G-Eval', 'Hybrid Search (RRF)', 'BM25', 'Pydantic v2', 'Python', 'SEC 10-K', 'Pytest'],
-    github: 'https://github.com/APdrone/production-rag-evaluation-suite',
+    github: 'https://github.com/scriptcrux/production-rag-evaluation-suite',
     architectureMetrics: {
       workers: 'LangGraph + DeepEval Judge',
       duration: 'Latency < 2.8s / Cost < $0.015',
@@ -516,7 +516,7 @@ def build_financial_analyst_graph(agent: "FinancialAnalystAgent"):
     mainImage: '/images/artillery-dashboard.jpg',
     images: ['/images/artillery-dashboard.jpg'],
     tags: ['BE', 'Backend', 'Artillery 2.x', 'Node.js', 'FinTech', 'Chaos Engineering', 'WebSocket', 'Idempotency', 'OAuth2 JWT', 'GitHub Actions', 'Prometheus'],
-    github: 'https://github.com/APdrone/artillery-performance-framework',
+    github: 'https://github.com/scriptcrux/artillery-performance-framework',
     architectureMetrics: {
       workers: '10,000+ RPS Concurrency',
       duration: 'Multi-Phase Ramp & Soak',
@@ -600,7 +600,7 @@ scenarios:
       '/images/k6-html-report.jpg',
     ],
     tags: ['BE', 'Backend', 'Grafana k6', 'JavaScript (ES6)', 'Distributed Locks', 'Flash-Sale Engine', 'TTL Caching', 'Idempotency', 'GitHub Actions', 'HTML Reporter'],
-    github: 'https://github.com/APdrone/k6-enterprise-performance-framework',
+    github: 'https://github.com/scriptcrux/k6-enterprise-performance-framework',
     architectureMetrics: {
       workers: '100 Concurrent VUs / 8.5k RPS',
       duration: '4-Phase Ramp & Spike Curves',
@@ -705,7 +705,7 @@ export default function () {
       'https://res.cloudinary.com/dyhvayayc/image/upload/v1739671835/appium_CI_2_g7wdhn.png',
     ],
     tags: ['Mobile', 'Appium 2.x', 'WebdriverIO 9', 'TypeScript', 'Android (UiAutomator2)', 'iOS (XCUITest)', 'W3C Actions Gestures', 'Page Object Model', 'Allure 2', 'Cross-Platform'],
-    github: 'https://github.com/APdrone/appium-mobile-automation-framework',
+    github: 'https://github.com/scriptcrux/appium-mobile-automation-framework',
     architectureMetrics: {
       workers: 'UiAutomator2 & XCUITest',
       duration: '4m 20s Parallel Suite',
@@ -774,7 +774,7 @@ export class Gestures {
       'https://res.cloudinary.com/dyhvayayc/image/upload/v1739672072/wdio_ci_2_i8u2bf.png',
     ],
     tags: ['FE', 'Frontend', 'WebdriverIO v10', 'Cucumber BDD', 'TypeScript', 'AI Agent / MCP', 'WCAG 2.1 AA', 'BiDi Protocol', 'Healthcare EHR'],
-    github: 'https://github.com/APdrone/wdio-agentic-bdd-framework',
+    github: 'https://github.com/scriptcrux/wdio-agentic-bdd-framework',
     architectureMetrics: {
       workers: '5 Parallel Chrome Workers',
       duration: '< 45s Full Suite Run',
@@ -835,7 +835,7 @@ Feature: WebdriverIO AI Agentic Intent-Based Triage & Verification
       'WAI-ARIA 1.2',
       'Section 508',
     ],
-    github: 'https://github.com/APdrone/a11y-automation-framework',
+    github: 'https://github.com/scriptcrux/a11y-automation-framework',
     architectureMetrics: {
       workers: '5-Layer Multi-Runner Audit',
       duration: '< 15s Full Audit Suite',
