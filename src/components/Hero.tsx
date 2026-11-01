@@ -140,7 +140,7 @@ export default function Hero() {
               </button>
 
               <a
-                href="https://github.com/APdrone"
+                href="https://github.com/scriptcrux"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-slate-700 dark:text-slate-300 font-medium text-sm sm:text-base bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 hover:text-slate-900 dark:hover:text-white transition-colors"
