@@ -5,7 +5,7 @@ import { projects } from '../data/projects';
 
 type ViewMode = 'images' | 'video';
 
-const categories = ['All', 'Full-Stack QA', 'Frontend', 'Backend', 'GenAI', 'Mobile', 'Accessibility'];
+const categories = ['All', 'Full-Stack QA', 'Frontend', 'API & Backend', 'Performance', 'GenAI', 'Mobile', 'Accessibility'];
 
 const MediaModal: React.FC<{
   isOpen: boolean;

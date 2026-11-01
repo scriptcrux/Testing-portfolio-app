@@ -3,7 +3,7 @@
 export interface ProjectData {
   id: string;
   title: string;
-  category: 'Full-Stack QA' | 'Frontend' | 'Backend' | 'GenAI' | 'Mobile' | 'Accessibility';
+  category: 'Full-Stack QA' | 'Frontend' | 'API & Backend' | 'Performance' | 'GenAI' | 'Mobile' | 'Accessibility';
   description: string;
   mainImage: string;
   images: string[];
@@ -185,7 +185,7 @@ test.describe('E2E Hybrid: API Pre-Seeded Fast-Path Authentication', () => {
   {
     id: 'billpulse-api-automation',
     title: 'BillPulse Fintech: Axios Enterprise API & Contract Engine',
-    category: 'Backend',
+    category: 'API & Backend',
     description:
       'High-throughput REST API test automation engine engineered with Axios, TypeScript, and Zod runtime schema validation. Implements Builder, Factory, and Strategy design patterns with auth token rotation, security tamper assertions, and retry backoff policies.',
     mainImage: '/images/billpulse-api-dashboard.jpg',
@@ -193,7 +193,7 @@ test.describe('E2E Hybrid: API Pre-Seeded Fast-Path Authentication', () => {
       '/images/billpulse-api-dashboard.jpg',
       '/images/automation-core-sdk-arch.jpg',
     ],
-    tags: ['BE', 'Backend', 'Axios', 'TypeScript', 'Zod', 'Design Patterns', 'Testcontainers', 'Security QA'],
+    tags: ['API & Backend', 'API Testing', 'Axios', 'TypeScript', 'Zod', 'Design Patterns', 'Testcontainers', 'Security QA'],
     github: 'https://github.com/scriptcrux/api-automation-ts',
     ecosystem: {
       sut: 'billpulse-fintech-app (🔒 Private)',
@@ -510,12 +510,12 @@ def build_financial_analyst_graph(agent: "FinancialAnalystAgent"):
   {
     id: 'artillery-fw',
     title: 'Artillery FinTech Performance & Chaos Resilience Framework',
-    category: 'Backend',
+    category: 'Performance',
     description:
       'Production-grade performance, load, stress, and chaos testing framework powered by Artillery 2.x and Node.js. Validates core banking microservices under 10,000+ RPS concurrency, featuring OAuth2 JWT authentication, UUIDv4 transaction idempotency deduplication, database connection pool saturation modeling, ETag optimistic locking, real-time WebSocket live-ledger streaming, and strict CI/CD SLA quality gating (p99 < 650ms).',
     mainImage: '/images/artillery-dashboard.jpg',
     images: ['/images/artillery-dashboard.jpg'],
-    tags: ['BE', 'Backend', 'Artillery 2.x', 'Node.js', 'FinTech', 'Chaos Engineering', 'WebSocket', 'Idempotency', 'OAuth2 JWT', 'GitHub Actions', 'Prometheus'],
+    tags: ['Performance', 'Load Testing', 'Artillery 2.x', 'Node.js', 'FinTech', 'Chaos Engineering', 'WebSocket', 'Idempotency', 'OAuth2 JWT', 'GitHub Actions', 'Prometheus'],
     github: 'https://github.com/scriptcrux/artillery-performance-framework',
     architectureMetrics: {
       workers: '10,000+ RPS Concurrency',
@@ -591,7 +591,7 @@ scenarios:
   {
     id: 'k6-load-engine',
     title: 'Grafana K6 Flash-Sale & Distributed Inventory Lock Engine',
-    category: 'Backend',
+    category: 'Performance',
     description:
       'High-throughput distributed e-commerce performance testing framework powered by Grafana k6 (ES6). Simulates high-contention flash-sale spikes up to 8,500+ RPS, validating atomic two-phase inventory reservations with 60-second TTL locks, cryptographic idempotency enforcement, faceted catalog search, and automated SLA threshold gating (p95 < 180ms, p99 < 250ms).',
     mainImage: '/images/k6-performance-dashboard.jpg',
@@ -599,7 +599,7 @@ scenarios:
       '/images/k6-performance-dashboard.jpg',
       '/images/k6-html-report.jpg',
     ],
-    tags: ['BE', 'Backend', 'Grafana k6', 'JavaScript (ES6)', 'Distributed Locks', 'Flash-Sale Engine', 'TTL Caching', 'Idempotency', 'GitHub Actions', 'HTML Reporter'],
+    tags: ['Performance', 'Load Testing', 'Grafana k6', 'JavaScript (ES6)', 'Distributed Locks', 'Flash-Sale Engine', 'TTL Caching', 'Idempotency', 'GitHub Actions', 'HTML Reporter'],
     github: 'https://github.com/scriptcrux/k6-enterprise-performance-framework',
     architectureMetrics: {
       workers: '100 Concurrent VUs / 8.5k RPS',
